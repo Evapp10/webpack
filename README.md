@@ -140,10 +140,7 @@ Webpack enables the use of loaders to preprocess files. This allows you to bundl
 **any static resource** way beyond JavaScript. You can easily [write your own
 loaders](https://webpack.js.org/api/loaders/) using Node.js.
 
-Loaders are activated by using `loadername!` prefixes in `require()` statements,
-or are automatically applied via regex from your webpack configuration.
-
-#### Files
+Loaders are activated by using `loadername!` prefixes in `require()` state
 
 |       Name        |   Status   | Install Size | Description                                              |
 | :---------------: | :--------: | :----------: | :------------------------------------------------------- |
@@ -266,26 +263,10 @@ loaded asynchronously at runtime. This reduces the initial loading time.
 
 ### [Optimizations](https://webpack.js.org/guides/production-build/)
 
-Webpack can do many optimizations to **reduce the output size of your
-JavaScript** by deduplicating frequently used modules, minifying, and giving
-you full control of what is loaded initially and what is loaded at runtime
-through code splitting. It can also make your code chunks **cache
-friendly** by using hashes.
+Webpack can do many optimizations to **red
 
-<h2 align="center">Contributing</h2>
-
-**We want contributing to webpack to be fun, enjoyable, and educational for anyone, and everyone.** We have a [vibrant ecosystem](https://medium.com/webpack/contributors-guide/home) that spans beyond this single repo. We welcome you to check out any of the repositories in [our organization](https://github.com/webpack) or [webpack-contrib organization](https://github.com/webpack-contrib) which houses all of our loaders and plugins.
-
-Contributions go far beyond pull requests and commits. Although we love giving you the opportunity to put your stamp on webpack, we also are thrilled to receive a variety of other contributions including:
-
-- [Documentation](https://github.com/webpack/webpack.js.org) updates, enhancements, designs, or bugfixes
-- Spelling or grammar fixes
-- README.md corrections or redesigns
-- Adding unit, or functional tests
-- Triaging GitHub issues -- especially determining whether an issue still persists or is reproducible.
-- [Searching #webpack on twitter](https://twitter.com/search?q=webpack) and helping someone else who needs help
-- Teaching others how to contribute to one of the many webpack's repos!
-- [Blogging, speaking about, or creating tutorials](https://github.com/webpack-contrib/awesome-webpack) about one of webpack's many features.
+<h2 align="cente twitter](https://twitter.com/search?q=webpack) and helping someone else who needs help
+- Teaching others how to contribute to one 
 - Helping others in our webpack [gitter channel](https://gitter.im/webpack/webpack).
 
 To get started have a look at our [documentation on contributing](https://github.com/webpack/webpack/blob/main/CONTRIBUTING.md).
@@ -298,13 +279,7 @@ _Looking to speak about webpack?_ We'd **love** to review your talk abstract/CFP
 
 <h3 align="center">Creating your own plugins and loaders</h3>
 
-If you create a loader or plugin, we would <3 for you to open source it, and put it on npm. We follow the `x-loader`, `x-webpack-plugin` naming convention.
-
-<h2 align="center">Support</h2>
-
-We consider webpack to be a low-level tool used not only individually but also layered beneath other awesome tools. Because of its flexibility, webpack isn't always the _easiest_ entry-level solution, however we do believe it is the most powerful. That said, we're always looking for ways to improve and simplify the tool without compromising functionality. If you have any ideas on ways to accomplish this, we're all ears!
-
-If you're just getting started, take a look at [our new docs and concepts page](https://webpack.js.org/concepts/). This has a high level overview that is great for beginners!!
+If you create a loader or plugin, we would <3 for you to open source it, and put it on npm. We follow the `x the _easiest_ entry-level solution, however we do believe it is the most powerful. That said, we're always looking for ways to improve and simplify the tool without compromising functionality.  page](https://webpack.js.org/concepts/). This has a high level overview that is great for beginners!!
 
 Looking for webpack 1 docs? Please check out the old [wiki](https://github.com/webpack/docs/wiki/contents), but note that this deprecated version is no longer supported.
 
@@ -412,44 +387,16 @@ src="https://static.monei.net/monei-logo.svg" height="30" alt="MONEI"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/0/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/0/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/1/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/1/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/2/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/2/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/3/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/3/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/4/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/4/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/5/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/5/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/6/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/6/avatar.svg?requireActive=false"></a>
+<a href="https://opencollective.com/webpack/k/goldsponsor/6/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/6/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/7/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/7/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/8/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/8/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/9/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/9/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/10/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/10/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/11/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/11/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/12/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/12/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/13/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/13/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/14/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/14/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/15/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/15/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/16/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/16/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/17/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/17/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/18/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/18/avatar.svg?requireActive=false"></a>
+<a hr href="https://opencollective.com/webpack/goldsponsor/18/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/18/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/19/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/19/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/20/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/20/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/21/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/21/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/22/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/22/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/goldsponsor/23/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/23/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/24/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/24/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/25/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/25/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/26/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/26/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/27/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/27/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/28/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/28/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/goldsponsor/29/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/goldsponsor/29/avatar.svg?requireActive=false"></a>
-
-</div>
-
-<h2 align="center">Silver Sponsors</h2>
-
-[Become a silver sponsor](https://opencollective.com/webpack#sponsor) and get your logo on our README on Github with a link to your site.
-
-<div align="center">
-
-<a href="https://opencollective.com/webpack/silversponsor/0/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/silversponsor/0/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/webpack/silversponsor/1/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/silversponsor/1/avatar.svg?requireActive=false"></a>
+<a7/avatar.svg?requireActive=false"></a>
+<a  src="https://opencollective.com/webpack/silversponsor/1/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/silversponsor/2/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/silversponsor/2/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/silversponsor/3/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/silversponsor/3/avatar.svg?requireActive=false"></a>
 <a href="https://opencollective.com/webpack/silversponsor/4/website?requireActive=false" target="_blank"><img src="https://opencollective.com/webpack/silversponsor/4/avatar.svg?requireActive=false"></a>
